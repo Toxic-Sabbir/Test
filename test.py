@@ -43,7 +43,7 @@ def cetak(x):
     
 os.system('clear')
 os.system('rm -rf .txt')
-print '\x1b[1;97m{\x1b[1;93m•\x1b[1;97m} Contoh \x1b[1;91m:\x1b[1;93m 1000'
+print ('\x1b[1;97m{\x1b[1;93m•\x1b[1;97m} Contoh \x1b[1;91m:\x1b[1;93m 1000'
 nok = int(raw_input('\x1b[1;97m{\x1b[1;92m•\x1b[1;97m} Jumlah yg ingin anda crack \x1b[1;91m:\x1b[1;92m '))
 jalan('\x1b[1;97m{\x1b[1;95m•\x1b[1;97m} Tunggu sedang membuat file ... ')
 time.sleep(2)
